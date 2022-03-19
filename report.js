@@ -1,8 +1,7 @@
 const newman = require('newman');
 
 newman.run({
-    collection: require('./Users_B3.postman_collection.json'), // 
-    //environment: require('./collection/customer_api_env.json'), // pointing 
+    collection: require('./Users_B3.postman_collection.json'), 
     iterationCount: 1,
     reporters: 'htmlextra',
     reporter: {
